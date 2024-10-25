@@ -14,7 +14,7 @@ import {
 } from "../Assets";
 
 // navigation links and text
-export const Navbar = [
+export const NavLinks = [
 	{
 		id: "about",
 		title: "About",
