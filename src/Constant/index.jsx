@@ -38,8 +38,8 @@ export const NavLinks = [
 ];
 
 // hero texts
-export const Hero = {
-	heading: "Where Little Minds Grow",
+export const HeroText = {
+	heading: "Where Little Minds Grow.",
 	subheading:
 		"Sunny Skies Preschool nurtures curiosity, creativity, and a love for learning in a warm and welcoming environment.",
 };
