@@ -1,0 +1,34 @@
+import { BrowserRouter } from "react-router-dom";
+
+import {
+	Navbar,
+	Hero,
+	About,
+	Admission,
+	Programs,
+	Gallery,
+	Contact,
+	Footer,
+} from "./Components";
+
+function App() {
+	return (
+		<BrowserRouter>
+			<div className="z-0 relative bg-background text-headText">
+				<div className="hero-background bg-cover bg-no-repeat bg-center">
+					<Navbar />
+					<Hero />
+				</div>
+
+				<About />
+				<Admission />
+				<Programs />
+				<Gallery />
+				<Contact />
+				<Footer />
+			</div>
+		</BrowserRouter>
+	);
+}
+
+export default App;
