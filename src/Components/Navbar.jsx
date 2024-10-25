@@ -49,7 +49,7 @@ function Navbar() {
 								active === links.title
 									? "text-white"
 									: "text-red"
-							} hover:text-white text-[14px] cursor-pointer font-bold tracking-wider`}
+							} text-[14px] cursor-pointer font-bold tracking-wider hover:underline hover:underline-offset-2`}
 							onClick={() => setActive(links.title)}
 						>
 							<a href={`#${links.id}`}>{links.title}</a>
@@ -80,7 +80,7 @@ function Navbar() {
 										active === links.title
 											? "text-white"
 											: "text-red"
-									} text-[14px] font-bold tracking-wider cursor-pointer`}
+									} text-[14px] font-bold tracking-wider cursor-pointer hover:underline hover:underline-offset-2`}
 									onClick={() => {
 										setToggle(!toggle);
 										setActive(links.title);
