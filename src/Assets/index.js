@@ -9,6 +9,9 @@ import napTime from "../Assets/galleryImg/nap_time.jpg";
 import blockTime from "../Assets/galleryImg/block_time.mp4";
 import interactTime from "../Assets/galleryImg/interact_time.mp4";
 
+import menu from "./menu.svg";
+import close from "./close.svg";
+
 import { FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
 
@@ -22,6 +25,8 @@ export {
 	toyTime,
 	artTime,
 	playTime,
+	menu,
+	close,
 	FaFacebook,
 	FaInstagram,
 	FaYoutube,
