@@ -7,6 +7,12 @@ import {
 	toyTime,
 	artTime,
 	playTime,
+	firstDay,
+	applyDay,
+	tourDay,
+	interviewDay,
+	orientationDay,
+	acceptanceDay,
 	FaFacebook,
 	FaInstagram,
 	FaYoutube,
@@ -73,30 +79,39 @@ export const Philosophy = [
 ];
 
 // enrollment and FAQ information
+export const AdmissionText = [
+	"At Sunny Preschool, we strive to make the admissions process as smooth and welcoming as possible. We invite you to explore our vibrant learning environment, meet our dedicated staff, and learn more about our unique programs. Our goal is to ensure every family feels confident and excited about joining the Sunny Preschool community. We look forward to welcoming your child to our family!",
+];
 export const Enrollment = [
 	{
 		topic: "Tour",
 		about: "Schedule a visit to meet our staff and see our facilities.",
+		image: tourDay,
 	},
 	{
 		topic: "Apply",
 		about: "Complete the application form and provide necessary documents.",
+		image: applyDay,
 	},
 	{
 		topic: "Interview",
 		about: "Discuss your child’s needs with our Admissions Coordinator.",
+		image: interviewDay,
 	},
 	{
 		topic: "Acceptance",
 		about: "Receive an offer letter and pay the enrollment fee.",
+		image: acceptanceDay,
 	},
 	{
 		topic: "Orientation",
 		about: "Attend a session to help your child acclimate.",
+		image: orientationDay,
 	},
 	{
 		topic: "First Day",
 		about: "Welcome to Sunny Skies Preschool!",
+		image: firstDay,
 	},
 ];
 export const FAQ = [
@@ -105,6 +120,10 @@ export const FAQ = [
 		response:
 			"Our school operates from 8:30 AM to 3:30 PM, Monday through Friday.",
 	},
+	{question: "How do I schedule a tour?",
+	response:
+		"You can schedule a tour by contacting us through our website or by calling our office directly.",
+},
 	{
 		question: "What is the teacher-student ratio?",
 		response:
