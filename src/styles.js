@@ -7,6 +7,6 @@ export const styles = {
 		"font-bold border-2 px-5 py-3 rounded-3xl tracking-wider hover:underline hover:underline-offset-2",
 
 	sectionHeading: "pb-5 text-5xl font-bold tracking-wide",
-	sectionSubText: "pl-3 text-lg leading-6 font-medium",
-	sectionSubHeading: "text-4xl font-semibold tracking-wide pb-5",
+	sectionSubText: "pl-5 text-lg leading-6 font-medium",
+	sectionSubHeading: "pl-3 text-4xl font-semibold tracking-wide pb-5",
 };
