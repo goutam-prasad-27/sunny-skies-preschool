@@ -7,6 +7,11 @@ import {
 	toyTime,
 	artTime,
 	playTime,
+	craftTime,
+	puzzleTime,
+	ballTime,
+	buildTime,
+	restTime,
 	firstDay,
 	applyDay,
 	tourDay,
@@ -175,7 +180,35 @@ export const ProgramActivity = [
 ];
 
 // images and text for gallery
-export const Gallery = [];
+export const GalleryText = [
+	"Dive into the colorful world of Sunny Skies Preschool! Our gallery brims with vibrant moments, creative bursts, and joyful adventures. See the magic unfold in art, play, and learning!",
+];
+export const GalleryImages = [
+	{ id: "1", src: studyTime },
+	{ id: "2", src: interactTime },
+	{ id: "3", src: napTime },
+	{ id: "4", src: yogaTime },
+	{ id: "5", src: playTime },
+	{ id: "6", src: artTime },
+	{ id: "7", src: toyTime },
+	{ id: "8", src: firstDay },
+	{ id: "9", src: puzzleTime },
+	{ id: "10", src: acceptanceDay },
+	{ id: "11", src: orientationDay },
+	{ id: "12", src: blockTime },
+	{ id: "13", src: applyDay },
+	{ id: "14", src: interviewDay },
+	{ id: "15", src: craftTime },
+	{ id: "16", src: tourDay },
+	{ id: "17", src: mathActivity },
+	{ id: "18", src: artActivity },
+	{ id: "19", src: ballTime },
+	{ id: "20", src: danceActivity },
+	{ id: "21", src: readingActivity },
+	{ id: "22", src: buildTime },
+	{ id: "23", src: restTime },
+	{ id: "24", src: gardeningActivity },
+];
 
 // contact information
 export const Contact = {
