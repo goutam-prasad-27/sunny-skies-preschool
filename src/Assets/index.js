@@ -16,6 +16,12 @@ import interviewDay from "../Assets/admissionImg/interview_day.jpg";
 import orientationDay from "../Assets/admissionImg/orientation_day.jpg";
 import acceptanceDay from "../Assets/admissionImg/acceptance_day.jpg";
 
+import readingActivity from "../Assets/programsImg/reading_activity.jpg";
+import mathActivity from "../Assets/programsImg/math_activity.jpg";
+import danceActivity from "../Assets/programsImg/dance_activity.jpg";
+import gardeningActivity from "../Assets/programsImg/gardening_activity.jpg";
+import artActivity from "../Assets/programsImg/art_activity.jpg";
+
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -38,6 +44,11 @@ export {
 	interviewDay,
 	orientationDay,
 	acceptanceDay,
+	readingActivity,
+	danceActivity,
+	artActivity,
+	gardeningActivity,
+	mathActivity,
 	menu,
 	close,
 	FaFacebook,
