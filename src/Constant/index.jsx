@@ -13,6 +13,11 @@ import {
 	interviewDay,
 	orientationDay,
 	acceptanceDay,
+	readingActivity,
+	danceActivity,
+	artActivity,
+	gardeningActivity,
+	mathActivity,
 	FaFacebook,
 	FaInstagram,
 	FaYoutube,
@@ -120,10 +125,11 @@ export const FAQ = [
 		response:
 			"Our school operates from 8:30 AM to 3:30 PM, Monday through Friday.",
 	},
-	{question: "How do I schedule a tour?",
-	response:
-		"You can schedule a tour by contacting us through our website or by calling our office directly.",
-},
+	{
+		question: "How do I schedule a tour?",
+		response:
+			"You can schedule a tour by contacting us through our website or by calling our office directly.",
+	},
 	{
 		question: "What is the teacher-student ratio?",
 		response:
@@ -137,26 +143,34 @@ export const FAQ = [
 ];
 
 // programs information
-export const Programs = [
+export const ActivityText = [
+	"At Sunny Preschool, we offer a variety of engaging programs designed to foster curiosity and development in young children. From STEM activities that spark early interest in science and math to creative arts, outdoor adventures, and language skills, our diverse curriculum ensures a well-rounded and enriching experience for every child. Our goal is to create a fun, nurturing environment where each child can explore, learn, and grow.",
+];
+export const ProgramActivity = [
 	{
 		activity: "Reading",
-		details: "Stories, letters, simple words.",
+		details: "Engaging stories that spark imagination, recognizing and understanding letters, and practicing reading simple words to build early literacy skills.",
+		image: readingActivity,
 	},
 	{
 		activity: "Math & Science",
-		details: "Counting, shapes, basic patterns, Nature walks, fun experiments.",
+		details: "Early mathematical skills development through counting numbers, shapes, and patterns, while exploring nature through walks, observations, and experiments ignites curiosity and understanding of the natural world.",
+		image: mathActivity,
 	},
 	{
-		activity: "Art",
-		details: "Drawing, painting, crafts.",
+		activity: "Arts & Crafts",
+		details: "Engaging children in creative activities like drawing, painting, and crafting helps develop fine motor skills, hand-eye coordination, and appreciation for art in various forms.",
+		image: artActivity,
 	},
 	{
 		activity: "Music, Dance & Drama",
-		details: "Singing, playing simple instruments, Fun dance sessions, Role-playing, storytelling.",
+		details: "The program promotes music, dance, and drama, fostering children's imagination, communication skills, and confidence through singing, nursery rhymes, playing simple instruments, and engaging in role-playing and storytelling.",
+		image: danceActivity,
 	},
 	{
 		activity: "Gardening",
-		details: "Planting and caring for plants.",
+		details: "Teaching children gardening basics through hands-on activities fosters responsibility, patience, and environmental understanding. It teaches plant types, growth cycles, and nurturing, promoting environmental stewardship.",
+		image: gardeningActivity,
 	},
 ];
 
