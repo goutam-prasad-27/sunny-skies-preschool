@@ -8,6 +8,11 @@ import yogaTime from "../Assets/galleryImg/yoga_time.jpg";
 import napTime from "../Assets/galleryImg/nap_time.jpg";
 import blockTime from "../Assets/galleryImg/block_time.mp4";
 import interactTime from "../Assets/galleryImg/interact_time.mp4";
+import craftTime from "../Assets/galleryImg/craft_time.mp4";
+import puzzleTime from "../Assets/galleryImg/puzzle_time.mp4";
+import ballTime from "../Assets/galleryImg/ball_time.mp4";
+import buildTime from "../Assets/galleryImg/build_time.mp4";
+import restTime from "../Assets/galleryImg/rest_time.mp4";
 
 import firstDay from "../Assets/admissionImg/first_day.jpg";
 import applyDay from "../Assets/admissionImg/apply_day.jpg";
@@ -38,6 +43,11 @@ export {
 	toyTime,
 	artTime,
 	playTime,
+	craftTime,
+	puzzleTime,
+	ballTime,
+	buildTime,
+	restTime,
 	firstDay,
 	applyDay,
 	tourDay,
