@@ -9,4 +9,5 @@ export const styles = {
 	sectionHeading: "pb-5 text-5xl font-bold tracking-wide",
 	sectionSubText: "pl-5 text-lg leading-6 font-medium",
 	sectionSubHeading: "pl-3 text-4xl font-semibold tracking-wide pb-5",
+	sectionBoldText: "uppercase tracking-widest text-[22px] font-semibold"
 };
