@@ -3,21 +3,27 @@ import { SectionWrapper } from "../HOC";
 import { styles } from "../styles";
 import { AdmissionText, Enrollment, FAQ } from "../Constant";
 
+// Component to render individual FAQ questions and answers
 const Questions = ({ question, response }) => (
 	<div>
-		<h3 className={`${styles.sectionSubText} underline underline-offset-2 text-xl`}>
-			<span>Q. </span>
-			{question}
+		<h3 className={`${styles.sectionBoldText}`}>
+			{" "}
+			<span className="text-[18px]">Q.</span> {question}
 		</h3>
-		<p className="pl-10 pb-2 font-medium tracking-wide">
-			<span>A. </span>
+		<p className={`${styles.sectionSubText} ml-5 mb-2`}>
+			<span className="text-[14px]">A. </span>
 			{response}
 		</p>
+		<div className="my-5 h-[1px] bg-white" />
+
 	</div>
 );
+
+// Main Admission component
 function Admission() {
 	return (
 		<section>
+			{/* Admission Introduction */}
 			<div>
 				<h1 className={styles.sectionHeading}>Admission.</h1>
 				<p className={`${styles.sectionSubText} pb-5`}>
@@ -25,23 +31,25 @@ function Admission() {
 				</p>
 				<div className="my-5 h-[2px] bg-white" />
 
+				{/* Enrollment Process Section */}
 				<h2 className={styles.sectionSubHeading}>
 					Enrollment Process.
 				</h2>
 				<div className="pl-2 flex flex-wrap gap-5 items-center justify-center">
+					{/* Map through enrollment steps */}
 					{Enrollment.map((enroll) => (
-						<div key={enroll.topic} className="py-2">
-							<p className="font-bold text-xl tracking-wide uppercase underline underline-offset-2">
+						<div key={enroll.topic}>
+							<h3 className={`${styles.sectionBoldText}`}>
 								{enroll.topic}{" "}
 								<span className="no-underline">:</span>
-							</p>
-							<p className="pl-2 font-semibold tracking-wider">
+							</h3>
+							<p className={`${styles.sectionSubText} mb-2`}>
 								{enroll.about}
 							</p>
 							<img
 								src={enroll.image}
 								alt={enroll.topic}
-								className="sm:h-[250px] sm:w-[500px] sm:object-cover object-cover rounded-3xl drop-shadow-xl h[200px] w-[300px]"
+								className="sm:max-w-[500px] sm:max-h-[300px] object-cover rounded-3xl drop-shadow-md w-[500px] h-[300px]"
 							/>
 						</div>
 					))}
@@ -49,8 +57,10 @@ function Admission() {
 			</div>
 			<div className="my-5 h-[2px] bg-white" />
 
+			{/* FAQ Section */}
 			<div>
 				<h2 className={styles.sectionSubHeading}>FAQ's.</h2>
+				{/* Map through FAQ questions */}
 				{FAQ.map((faq, idx) => (
 					<Questions key={faq.question} index={idx} {...faq} />
 				))}
@@ -59,4 +69,5 @@ function Admission() {
 	);
 }
 
+// Wrap the Admission component with SectionWrapper HOC
 export default SectionWrapper(Admission, "admission");
