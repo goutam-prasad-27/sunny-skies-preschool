@@ -211,10 +211,10 @@ export const GalleryImages = [
 ];
 
 // contact information
-export const Contact = {
-	email: ": info@sunnyskiespreschool.com",
-	phone: "+91 98300 12345",
-	address: "123 Rainbow Road, Kolkata, West Bengal, India",
+export const ContactInfo = {
+	email: "info@sunnyskiespreschool.com",
+	phone: "+1 555-123-4567",
+	address: "123 Sunshine Avenue, Los Angeles, CA, USA",
 };
 
 // social links
