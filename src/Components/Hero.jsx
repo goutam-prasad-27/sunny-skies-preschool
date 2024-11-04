@@ -13,16 +13,16 @@ function Hero() {
 			{/* Content container */}
 			<div className={`${styles.padding} absolute inset-0 top-[95px]`}>
 				{/* Main heading */}
-				<h1 className="text-3xl sm:text-5xl font-bold uppercase">
+				<h1 className="text-3xl sm:text-5xl font-bold uppercase pb-3">
 					{HeroText.heading}
 				</h1>
 				{/* Subheading */}
-				<p className="text-[16px] font-semibold">
+				<p className="text-[16px] font-semibold tracking-wider">
 					{HeroText.subheading}
 				</p>
 
 				{/* Call-to-action buttons */}
-				<div className="gap-4 flex pt-8 pl-6">
+				<div className="gap-4 flex sm:pt-8 sm:pl-6 p-5 sm:flex-row flex-col">
 					{/* Enroll Now button */}
 					<button
 						className={`${styles.heroButton} bg-background`}
