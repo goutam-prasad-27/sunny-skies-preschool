@@ -14,7 +14,7 @@ import {
 function App() {
 	return (
 		<BrowserRouter>
-			<div className="z-0 relative bg-background text-headText">
+			<div className="z-0 relative bg-background text-mainAccent">
 				<div className="bg-hero-background bg-cover bg-no-repeat bg-center">
 					<Navbar />
 					<Hero />
