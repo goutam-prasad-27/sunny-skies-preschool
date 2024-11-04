@@ -13,6 +13,7 @@ import puzzleTime from "../Assets/galleryImg/puzzle_time.mp4";
 import ballTime from "../Assets/galleryImg/ball_time.mp4";
 import buildTime from "../Assets/galleryImg/build_time.mp4";
 import restTime from "../Assets/galleryImg/rest_time.mp4";
+import philosophyTime from "../Assets/galleryImg/philosophy_time.jpg";
 
 import firstDay from "../Assets/admissionImg/first_day.jpg";
 import applyDay from "../Assets/admissionImg/apply_day.jpg";
@@ -48,6 +49,7 @@ export {
 	ballTime,
 	buildTime,
 	restTime,
+	philosophyTime,
 	firstDay,
 	applyDay,
 	tourDay,
