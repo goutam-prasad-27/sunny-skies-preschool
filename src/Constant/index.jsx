@@ -256,8 +256,3 @@ export const Social = [
 		),
 	},
 ];
-
-// copyright information
-export const copyright = [
-	~"© 2024 Sunny Skies Preschool.~ All rights reserved. Unauthorized duplication or publication of any materials from this site is strictly prohibited.",
-];
