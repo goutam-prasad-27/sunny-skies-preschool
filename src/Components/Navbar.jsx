@@ -15,7 +15,7 @@ function Navbar() {
 		<section className="flex justify-center items-center">
 			<nav
 				// Apply styles to the navigation bar
-				className={`${styles.paddingX} fixed sm:w-[950px] w-full flex items-center py-2 sm:top-5 top-0 z-20 bg-background drop-shadow-2xl sm:rounded-[30px] rounded-none`}
+				className={`${styles.paddingX} fixed sm:w-[950px] w-full flex items-center py-2 sm:top-5 top-0 z-20 bg-background shadow-card sm:rounded-[30px] rounded-none`}
 			>
 				<div className="w-full flex justify-between items-center max-w-7xl mx-auto">
 					<Link
@@ -81,8 +81,8 @@ function Navbar() {
 										key={links.id}
 										className={`${
 											active === links.title
-												? "text-darkText"
-												: "text-mainText"
+												? "text-darkAccent"
+												: "text-mainAccent"
 										} text-[14px] font-bold tracking-wider cursor-pointer`}
 										onClick={() => {
 											setToggle(!toggle);
