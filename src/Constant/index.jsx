@@ -12,6 +12,7 @@ import {
 	ballTime,
 	buildTime,
 	restTime,
+	philosophyTime,
 	firstDay,
 	applyDay,
 	tourDay,
@@ -66,8 +67,8 @@ export const AboutText = [
 ];
 export const StaffInfo = [
 	{
-		name: "Ms. Emily Johnson",
-		image: "https://randomuser.me/api/portraits/women/17.jpg",
+		name: "Ms. Emily Baker",
+		image: "https://randomuser.me/api/portraits/women/43.jpg",
 		post: "Lead Teacher",
 		info: "Ms. Emily has over 10 years of experience in early childhood education. She holds a degree in Early Childhood Development and is passionate about creating a nurturing and stimulating environment for young learners.",
 	},
@@ -78,14 +79,14 @@ export const StaffInfo = [
 		info: "Ms. Aisha is an artist and educator who loves to inspire creativity in young minds. She encourages children to express themselves through various art forms, from painting to sculpture. Her classroom is always a hub of colorful activity.",
 	},
 	{
-		name: "Mr. David Kim",
-		image: "https://randomuser.me/api/portraits/men/26.jpg",
+		name: "Mr. David Evans",
+		image: "https://randomuser.me/api/portraits/men/22.jpg",
 		post: "P.E. Teacher",
 		info: "Mr. David is a certified physical education teacher who emphasizes the importance of physical activity for healthy development. He organizes fun and engaging activities that help children develop their motor skills and love for sports.",
 	},
 ];
 export const Philosophy = [
-	"At Sunny Preschool, we nurture the whole child through play-based learning, fostering kindness, curiosity, and creativity in a safe environment.",
+	"At Sunny Preschool, we nurture the whole child with a play-based learning approach that covers intellectual, emotional, social, and physical growth. We foster kindness, curiosity, and creativity in a safe and supportive environment, encouraging children to explore, express themselves, and develop empathy and strong interpersonal skills.",
 ];
 
 // enrollment and FAQ information
@@ -208,6 +209,7 @@ export const GalleryImages = [
 	{ id: "22", src: buildTime },
 	{ id: "23", src: restTime },
 	{ id: "24", src: gardeningActivity },
+	{ id: "25", src: philosophyTime },
 ];
 
 // contact information
