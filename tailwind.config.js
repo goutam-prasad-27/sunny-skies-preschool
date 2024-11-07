@@ -7,12 +7,13 @@ export default {
 				"hero-background": "url(/src/Assets/background.jpg)",
 			},
 			colors: {
-				primary: "",
-				secondary: "",
-				background: "#1A3636",
-				headText: "#D6BD98",
-				//!add more....
+				extraAccent: "#415a77ff",
+				background: "#0d1b2aff",
+				mainAccent: "#e0e1ddff",
+				darkAccent: "#1b263bff",
+				lightAccent: "#778da9ff",
 			},
+			boxShadow: { card: "6px 8px 10px rgba(0, 0, 0,0.2)" },
 		},
 	},
 	plugins: [],
