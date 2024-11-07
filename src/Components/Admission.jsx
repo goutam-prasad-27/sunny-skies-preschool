@@ -14,8 +14,7 @@ const Questions = ({ question, response }) => (
 			<span className="text-[14px]">A. </span>
 			{response}
 		</p>
-		<div className="my-5 h-[1px] bg-white" />
-
+		<div className="my-5 h-[1px] bg-lightAccent" />
 	</div>
 );
 
@@ -29,33 +28,38 @@ function Admission() {
 				<p className={`${styles.sectionSubText} pb-5`}>
 					{AdmissionText}
 				</p>
-				<div className="my-5 h-[2px] bg-white" />
+				<div className="my-5 h-[2px] bg-lightAccent" />
 
 				{/* Enrollment Process Section */}
 				<h2 className={styles.sectionSubHeading}>
 					Enrollment Process.
 				</h2>
-				<div className="pl-2 flex flex-wrap gap-5 items-center justify-center">
+
+				<div className="flex justify-center items-center flex-wrap gap-12">
 					{/* Map through enrollment steps */}
 					{Enrollment.map((enroll) => (
 						<div key={enroll.topic}>
 							<h3 className={`${styles.sectionBoldText}`}>
-								{enroll.topic}{" "}
-								<span className="no-underline">:</span>
+								{enroll.topic} :
 							</h3>
-							<p className={`${styles.sectionSubText} mb-2`}>
+							<p
+								className={`${styles.sectionSubText} max-w-[500px] pb-5`}
+							>
 								{enroll.about}
 							</p>
+
+							
+
 							<img
 								src={enroll.image}
 								alt={enroll.topic}
-								className="sm:max-w-[500px] sm:max-h-[300px] object-cover rounded-3xl drop-shadow-md w-[500px] h-[300px]"
+								className="sm:max-w-[500px] sm:max-h-[300px] object-cover rounded-3xl shadow-card w-[500px] h-[300px]"
 							/>
 						</div>
 					))}
 				</div>
 			</div>
-			<div className="my-5 h-[2px] bg-white" />
+			<div className="my-5 h-[2px] bg-lightAccent" />
 
 			{/* FAQ Section */}
 			<div>
