@@ -15,7 +15,7 @@ function App() {
 	return (
 		<BrowserRouter>
 			<div className="z-0 relative bg-background text-mainAccent">
-				<div className="bg-hero-background bg-cover bg-no-repeat bg-center"> {/*//! will change the hero image*/}
+				<div className="bg-hero-background bg-cover bg-no-repeat bg-center">
 					<Navbar />
 					<Hero />
 				</div>
