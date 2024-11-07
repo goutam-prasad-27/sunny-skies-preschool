@@ -11,9 +11,9 @@ function Hero() {
 			<div className="bg-black opacity-50 h-screen w-full" />
 
 			{/* Content container */}
-			<div className={`${styles.padding} absolute inset-0 top-[95px]`}>
+			<div className="text-center absolute inset-0 top-[170px]">
 				{/* Main heading */}
-				<h1 className="text-3xl sm:text-5xl font-bold uppercase pb-3">
+				<h1 className="text-3xl sm:text-5xl font-bold uppercase pb-3 tracking-wide">
 					{HeroText.heading}
 				</h1>
 				{/* Subheading */}
@@ -22,23 +22,14 @@ function Hero() {
 				</p>
 
 				{/* Call-to-action buttons */}
-				<div className="gap-4 flex sm:pt-8 sm:pl-6 p-5 sm:flex-row flex-col">
+				<div className="gap-10 flex justify-center sm:pt-8 sm:flex-row flex-col p-5">
 					{/* Enroll Now button */}
-					<button
-						className={`${styles.heroButton} bg-background`}
-					>
+					<button className={styles.heroButton}>
 						Enroll Now
 					</button>
 					{/* Schedule a Visit button */}
-					<button
-						className={` ${styles.heroButton} border-background`}
-					>
-						Schedule a Visit
-					</button>
+					<button className={`${styles.heroButton} bg-background`}>Schedule a Visit</button>
 				</div>
-
-				{/* Placeholder for future event slider */}
-				{/*//! might add something like a event slider later */}
 			</div>
 		</section>
 	);
