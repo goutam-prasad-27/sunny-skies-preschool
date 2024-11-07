@@ -95,35 +95,36 @@ export const AdmissionText = [
 ];
 export const Enrollment = [
 	{
-		topic: "Tour",
-		about: "Schedule a visit to meet our staff and see our facilities.",
-		image: tourDay,
-	},
-	{
-		topic: "Apply",
-		about: "Complete the application form and provide necessary documents.",
-		image: applyDay,
-	},
-	{
-		topic: "Interview",
-		about: "Discuss your child’s needs with our Admissions Coordinator.",
-		image: interviewDay,
-	},
-	{
-		topic: "Acceptance",
-		about: "Receive an offer letter and pay the enrollment fee.",
-		image: acceptanceDay,
-	},
-	{
-		topic: "Orientation",
-		about: "Attend a session to help your child acclimate.",
-		image: orientationDay,
-	},
-	{
-		topic: "First Day",
-		about: "Welcome to Sunny Skies Preschool!",
-		image: firstDay,
-	},
+		"topic": "Schedule a Tour",
+		"about": "Book a visit to meet our amazing staff and explore our wonderful facilities. Let's start this exciting journey together!",
+		"image": tourDay,
+	 },
+	 {
+		"topic": "Submit an Application",
+		"about": "Complete the application form and send us the necessary documents. We're excited to welcome you!",
+		"image": applyDay,
+	 },
+	 {
+		"topic": "Admissions Interview",
+		"about": "Chat with our Admissions Coordinator about your child’s needs. We can't wait to learn more about your family!",
+		"image": interviewDay,
+	 },
+	 {
+		"topic": "Acceptance Offer",
+		"about": "Receive your offer letter and secure your spot by paying the enrollment fee. Welcome to our family!",
+		"image": acceptanceDay,
+	 },
+	 {
+		"topic": "Orientation Session",
+		"about": "Join us for a fun orientation session to help your child feel at home. We’re excited to start this journey with you!",
+		"image": orientationDay,
+	 },
+	 {
+		"topic": "First School Day",
+		"about": "Welcome to Sunny Skies Preschool! We can't wait to embark on this adventure with you and your child!",
+		"image": firstDay,
+	 }
+	 ,
 ];
 export const FAQ = [
 	{
