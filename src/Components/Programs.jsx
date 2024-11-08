@@ -12,22 +12,22 @@ const Activity = ({ activity, details, image }) => (
 				<img
 					src={image}
 					alt={activity}
-					className="sm:max-w-[350px] rounded-2xl drop-shadow-md"
+					className="sm:max-w-[350px] rounded-2xl shadow-card border-2 border-extraAccent"
 				/>
 			</div>
 			{/* Activity details container */}
 			<div className="pl-2 flex flex-col items-start">
 				<h3 className={`${styles.sectionBoldText}`}>
-					<span className="text-xl">▸</span>
+					<span className="text-2xl">▸</span>
 					{activity}.
 				</h3>
-				<p className={`${styles.sectionSubText} ml-5 mt-2`}>
+				<p className={`${styles.sectionSubText} sm:ml-5 ml-0 mt-2`}>
 					{details}
 				</p>
 			</div>
 		</div>
 		{/* Divider */}
-		<div className="my-5 h-[1px] bg-white" />
+		<div className="my-5 h-[1px] bg-lightAccent" />
 	</div>
 );
 
@@ -40,7 +40,7 @@ function Programs() {
 			<p className={styles.sectionSubText}>{ActivityText}</p>
 
 			{/* Divider */}
-			<div className="my-5 h-[2px] bg-white" />
+			<div className="my-5 h-[2px] bg-lightAccent" />
 
 			{/* Daily Activities section */}
 			<div>

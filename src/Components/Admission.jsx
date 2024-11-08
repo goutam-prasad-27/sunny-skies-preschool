@@ -48,11 +48,11 @@ function Admission() {
 								{enroll.about}
 							</p>
 
-							<div className="absolute w-[500px] h-[300px] sm:max-w-[500px] sm:max-h-[300px] rounded-3xl bg-background/30 border-2 border-mainAccent/50" />
+							<div className="absolute w-[500px] h-[300px] sm:max-w-[500px] sm:max-h-[300px] rounded-3xl bg-background/30 " />
 							<img
 								src={enroll.image}
 								alt={enroll.topic}
-								className="sm:max-w-[500px] sm:max-h-[300px] object-cover rounded-3xl shadow-card w-[500px] h-[300px]"
+								className="sm:max-w-[500px] sm:max-h-[300px] object-cover rounded-3xl shadow-card w-[500px] h-[300px] border-2 border-mainAccent"
 							/>
 						</div>
 					))}
