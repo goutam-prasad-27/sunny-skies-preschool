@@ -6,10 +6,10 @@ export const styles = {
 	heroButton:
 		"relative font-bold border-2 border-background px-8 py-3 rounded-3xl tracking-wider overflow-hidden text-mainAccent hover:text-background z-10",
 
-	sectionHeading: "pb-5 text-5xl font-bold tracking-wide",
-	sectionSubText: "pl-5 text-lg leading-6 font-medium",
-	sectionSubHeading: "pl-3 text-4xl font-semibold tracking-wide pb-5",
-	sectionBoldText: "uppercase tracking-widest text-[22px] font-semibold",
+	sectionHeading: " text-lightAccent pb-5 text-6xl font-bold tracking-wide",
+	sectionSubText: "pl-5 text-xl leading-6 font-medium ",
+	sectionSubHeading: "text-lightAccent pl-3 text-4xl font-semibold pb-5",
+	sectionBoldText: "text-extraAccent uppercase tracking-widest text-[24px] font-semibold",
 
 	formLabel: "flex flex-col pb-3",
 	formInput: "p-3 rounded-2xl bg-transparent border border-red-50",

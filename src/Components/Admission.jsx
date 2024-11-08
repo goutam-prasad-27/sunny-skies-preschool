@@ -8,10 +8,10 @@ const Questions = ({ question, response }) => (
 	<div>
 		<h3 className={`${styles.sectionBoldText}`}>
 			{" "}
-			<span className="text-[18px]">Q.</span> {question}
+			<span className="text-[18px] text-lightAccent">Q.</span> {question}
 		</h3>
 		<p className={`${styles.sectionSubText} ml-5 mb-2`}>
-			<span className="text-[14px]">A. </span>
+			<span className="text-[14px] ">A. </span>
 			{response}
 		</p>
 		<div className="my-5 h-[1px] bg-lightAccent" />
@@ -48,8 +48,7 @@ function Admission() {
 								{enroll.about}
 							</p>
 
-							
-
+							<div className="absolute w-[500px] h-[300px] sm:max-w-[500px] sm:max-h-[300px] rounded-3xl bg-background/30 border-2 border-mainAccent/50" />
 							<img
 								src={enroll.image}
 								alt={enroll.topic}
