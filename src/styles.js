@@ -9,7 +9,7 @@ export const styles = {
 	sectionHeading: " text-lightAccent pb-5 text-6xl font-bold tracking-wide",
 	sectionSubText: "pl-5 text-xl leading-6 font-medium ",
 	sectionSubHeading: "text-lightAccent pl-3 text-4xl font-semibold pb-5",
-	sectionBoldText: "text-extraAccent uppercase tracking-widest text-[24px] font-semibold",
+	sectionBoldText: "boldGradient uppercase tracking-widest text-[24px] font-semibold",
 
 	formLabel: "flex flex-col pb-3",
 	formInput: "p-3 rounded-2xl bg-transparent border border-red-50",
