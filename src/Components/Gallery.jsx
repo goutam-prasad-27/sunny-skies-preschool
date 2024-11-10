@@ -9,7 +9,7 @@ const GalleryCollection = ({ id, src }) => {
 		<div>
 			{isVideo ? (
 				<video
-					className="sm:h-[200px] h-[150px] rounded-2xl"
+					className="sm:h-[200px] h-[150px] rounded-2xl shadow-card"
 					autoPlay
 					muted
 					loop
@@ -20,7 +20,7 @@ const GalleryCollection = ({ id, src }) => {
 				<img
 					src={src}
 					alt={`Image ${id}`}
-					className="sm:h-[200px] rounded-2xl h-[150px]"
+					className="sm:h-[200px] rounded-2xl h-[150px] shadow-card"
 				/>
 			)}
 		</div>
@@ -34,7 +34,7 @@ function Gallery() {
 				<h1 className={`${styles.sectionHeading}`}>Gallery.</h1>
 				<p className={`${styles.sectionSubText}`}>{GalleryText}</p>
 			</div>
-			<div className="my-5 h-[2px] bg-white" />
+			<div className="my-5 h-[2px] bg-lightAccent" />
 			<div className="flex flex-wrap gap-3 items-center justify-center">
 				{GalleryImages.map((gallery, idx) => (
 					<GalleryCollection

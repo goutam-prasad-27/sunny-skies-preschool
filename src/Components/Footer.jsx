@@ -21,10 +21,10 @@ function Footer() {
 			</div>
 
 			{/* Horizontal line separator */}
-			<div className="my-5 h-[2px] bg-white" />
+			<div className="my-5 h-[2px] bg-lightAccent" />
 
 			{/* Copyright and legal information */}
-			<div className="flex justify-center items-center h-16">
+			<div className="flex justify-center items-center h-16 text-center">
 				<p className="text-gray-400">
 					{/* Copyright notice */}
 					~© 2024 Sunny Skies Preschool.~ All rights reserved.{" "}

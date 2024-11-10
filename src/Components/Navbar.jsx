@@ -48,8 +48,8 @@ function Navbar() {
 								key={links.id}
 								className={`${
 									active === links.title
-										? "text-hoverColor"
-										: "text-mainText"
+										? "text-extraAccent"
+										: "text-mainAccent"
 								} text-[14px] cursor-pointer font-bold tracking-wider hover:underline hover:underline-offset-2`}
 								onClick={() => setActive(links.title)}
 							>

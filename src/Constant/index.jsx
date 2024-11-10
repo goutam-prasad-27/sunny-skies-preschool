@@ -95,36 +95,35 @@ export const AdmissionText = [
 ];
 export const Enrollment = [
 	{
-		"topic": "Schedule a Tour",
-		"about": "Book a visit to meet our amazing staff and explore our wonderful facilities. Let's start this exciting journey together!",
-		"image": tourDay,
-	 },
-	 {
-		"topic": "Submit an Application",
-		"about": "Complete the application form and send us the necessary documents. We're excited to welcome you!",
-		"image": applyDay,
-	 },
-	 {
-		"topic": "Admissions Interview",
-		"about": "Chat with our Admissions Coordinator about your child’s needs. We can't wait to learn more about your family!",
-		"image": interviewDay,
-	 },
-	 {
-		"topic": "Acceptance Offer",
-		"about": "Receive your offer letter and secure your spot by paying the enrollment fee. Welcome to our family!",
-		"image": acceptanceDay,
-	 },
-	 {
-		"topic": "Orientation Session",
-		"about": "Join us for a fun orientation session to help your child feel at home. We’re excited to start this journey with you!",
-		"image": orientationDay,
-	 },
-	 {
-		"topic": "First School Day",
-		"about": "Welcome to Sunny Skies Preschool! We can't wait to embark on this adventure with you and your child!",
-		"image": firstDay,
-	 }
-	 ,
+		topic: "Schedule a Tour",
+		about: "Book a visit to meet our amazing staff and explore our wonderful facilities. Let's start this exciting journey together!",
+		image: tourDay,
+	},
+	{
+		topic: "Submit an Application",
+		about: "Complete the application form and send us the necessary documents. We're excited to welcome you!",
+		image: applyDay,
+	},
+	{
+		topic: "Admissions Interview",
+		about: "Chat with our Admissions Coordinator about your child’s needs. We can't wait to learn more about your family!",
+		image: interviewDay,
+	},
+	{
+		topic: "Acceptance Offer",
+		about: "Receive your offer letter and secure your spot by paying the enrollment fee. Welcome to our family!",
+		image: acceptanceDay,
+	},
+	{
+		topic: "Orientation Session",
+		about: "Join us for a fun orientation session to help your child feel at home. We’re excited to start this journey with you!",
+		image: orientationDay,
+	},
+	{
+		topic: "First School Day",
+		about: "Welcome to Sunny Skies Preschool! We can't wait to embark on this adventure with you and your child!",
+		image: firstDay,
+	},
 ];
 export const FAQ = [
 	{
@@ -223,38 +222,29 @@ export const ContactInfo = {
 // social links
 export const Social = [
 	{
-		href: "https://github.com/goutam-prasad-27",
+		href: "https://www.youtube.com/",
+		icon: (
+			<FaYoutube
+				fontSize={35}
+				className="text-lightAccent hover:text-mainAccent hover:scale-[1.2] transition delay-200 ease-in-out"
+			/>
+		),
+	},
+	{
+		href: "https://www.instagram.com/",
+		icon: (
+			<FaInstagram
+				fontSize={35}
+				className="text-lightAccent hover:text-mainAccent hover:scale-[1.2] transition delay-200 ease-in-out"
+			/>
+		),
+	},
+	{
+		href: "https://www.facebook.com/",
 		icon: (
 			<FaFacebook
 				fontSize={30}
-				className="hover:text-primary transition delay-100 ease-in"
-			/>
-		),
-	},
-	{
-		href: "https://github.com/goutam-prasad-27",
-		icon: (
-			<FaInstagram
-				fontSize={30}
-				className="hover:text-primary transition delay-100 ease-in"
-			/>
-		),
-	},
-	{
-		href: "https://github.com/goutam-prasad-27",
-		icon: (
-			<FaYoutube
-				fontSize={30}
-				className="hover:text-primary transition delay-100 ease-in"
-			/>
-		),
-	},
-	{
-		href: "https://github.com/goutam-prasad-27",
-		icon: (
-			<MdMail
-				fontSize={30}
-				className="hover:text-primary transition delay-100 ease-in"
+				className="text-lightAccent hover:text-mainAccent hover:scale-[1.2] transition delay-200 ease-in-out"
 			/>
 		),
 	},
